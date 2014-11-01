@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191A33191A0433920086E512 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 191A33181A0433920086E512 /* Photo.m */; };
+		1957D96A1A03FF970081C4FA /* AudibleChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1957D9681A03FF970081C4FA /* AudibleChallenge.xcdatamodeld */; };
+		19F072E91A030D11000A4979 /* ZNInstagramTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F072E81A030D11000A4979 /* ZNInstagramTableViewController.m */; };
+		19F072EC1A030DF7000A4979 /* ZNInstagramTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F072EB1A030DF7000A4979 /* ZNInstagramTableViewCell.m */; };
+		19F072EE1A031452000A4979 /* zak.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F072ED1A031452000A4979 /* zak.png */; };
+		19F072F11A031A53000A4979 /* ZNInstagramSmallTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F072F01A031A53000A4979 /* ZNInstagramSmallTableViewCell.m */; };
+		19F072F41A03DE21000A4979 /* ZNDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F072F31A03DE20000A4979 /* ZNDataStore.m */; };
+		19F84D731A05349B00478585 /* ZNImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F84D721A05349B00478585 /* ZNImageDetailViewController.m */; };
+		19F896611A02A266001E6D3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F896601A02A266001E6D3F /* main.m */; };
+		19F896641A02A266001E6D3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F896631A02A266001E6D3F /* AppDelegate.m */; };
+		19F8966A1A02A266001E6D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F896681A02A266001E6D3F /* Main.storyboard */; };
+		19F8966C1A02A266001E6D3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F8966B1A02A266001E6D3F /* Images.xcassets */; };
+		19F8966F1A02A266001E6D3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F8966D1A02A266001E6D3F /* LaunchScreen.xib */; };
+		19F8967B1A02A267001E6D3F /* AudibleChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F8967A1A02A267001E6D3F /* AudibleChallengeTests.m */; };
+		2066A320D16FEA87B4D6BA27 /* libPods-AudibleChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7436611BA2B9E008743FB1E /* libPods-AudibleChallenge.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19F896751A02A267001E6D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19F896531A02A266001E6D3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19F8965A1A02A266001E6D3F;
+			remoteInfo = AudibleChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191A33171A0433920086E512 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		191A33181A0433920086E512 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		1957D9691A03FF970081C4FA /* AudibleChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudibleChallenge.xcdatamodel; sourceTree = "<group>"; };
+		19F072E71A030D11000A4979 /* ZNInstagramTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNInstagramTableViewController.h; sourceTree = "<group>"; };
+		19F072E81A030D11000A4979 /* ZNInstagramTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNInstagramTableViewController.m; sourceTree = "<group>"; };
+		19F072EA1A030DF7000A4979 /* ZNInstagramTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNInstagramTableViewCell.h; sourceTree = "<group>"; };
+		19F072EB1A030DF7000A4979 /* ZNInstagramTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNInstagramTableViewCell.m; sourceTree = "<group>"; };
+		19F072ED1A031452000A4979 /* zak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zak.png; sourceTree = "<group>"; };
+		19F072EF1A031A53000A4979 /* ZNInstagramSmallTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNInstagramSmallTableViewCell.h; sourceTree = "<group>"; };
+		19F072F01A031A53000A4979 /* ZNInstagramSmallTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNInstagramSmallTableViewCell.m; sourceTree = "<group>"; };
+		19F072F21A03DE20000A4979 /* ZNDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNDataStore.h; sourceTree = "<group>"; };
+		19F072F31A03DE20000A4979 /* ZNDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNDataStore.m; sourceTree = "<group>"; };
+		19F84D711A05349B00478585 /* ZNImageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNImageDetailViewController.h; sourceTree = "<group>"; };
+		19F84D721A05349B00478585 /* ZNImageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNImageDetailViewController.m; sourceTree = "<group>"; };
+		19F8965B1A02A266001E6D3F /* AudibleChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudibleChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F8965F1A02A266001E6D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F896601A02A266001E6D3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19F896621A02A266001E6D3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19F896631A02A266001E6D3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19F896691A02A266001E6D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19F8966B1A02A266001E6D3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19F8966E1A02A266001E6D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		19F896741A02A267001E6D3F /* AudibleChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudibleChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F896791A02A267001E6D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F8967A1A02A267001E6D3F /* AudibleChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudibleChallengeTests.m; sourceTree = "<group>"; };
+		C7436611BA2B9E008743FB1E /* libPods-AudibleChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AudibleChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9D890CC542151B3D4657F0 /* Pods-AudibleChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudibleChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudibleChallenge/Pods-AudibleChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		F7C1FCBBEF3EBFA680BE930B /* Pods-AudibleChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudibleChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudibleChallenge/Pods-AudibleChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19F896581A02A266001E6D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2066A320D16FEA87B4D6BA27 /* libPods-AudibleChallenge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F896711A02A267001E6D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19F896521A02A266001E6D3F = {
+			isa = PBXGroup;
+			children = (
+				19F8965D1A02A266001E6D3F /* AudibleChallenge */,
+				19F896771A02A267001E6D3F /* AudibleChallengeTests */,
+				19F8965C1A02A266001E6D3F /* Products */,
+				88464C647A029311EF27EADC /* Pods */,
+				E5FE703E6B84A5D1C09E71BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19F8965C1A02A266001E6D3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19F8965B1A02A266001E6D3F /* AudibleChallenge.app */,
+				19F896741A02A267001E6D3F /* AudibleChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19F8965D1A02A266001E6D3F /* AudibleChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				19F896621A02A266001E6D3F /* AppDelegate.h */,
+				19F896631A02A266001E6D3F /* AppDelegate.m */,
+				19F84D711A05349B00478585 /* ZNImageDetailViewController.h */,
+				19F84D721A05349B00478585 /* ZNImageDetailViewController.m */,
+				19F072F21A03DE20000A4979 /* ZNDataStore.h */,
+				19F072F31A03DE20000A4979 /* ZNDataStore.m */,
+				1957D9681A03FF970081C4FA /* AudibleChallenge.xcdatamodeld */,
+				191A33171A0433920086E512 /* Photo.h */,
+				191A33181A0433920086E512 /* Photo.m */,
+				19F896681A02A266001E6D3F /* Main.storyboard */,
+				19F072EA1A030DF7000A4979 /* ZNInstagramTableViewCell.h */,
+				19F072EB1A030DF7000A4979 /* ZNInstagramTableViewCell.m */,
+				19F072EF1A031A53000A4979 /* ZNInstagramSmallTableViewCell.h */,
+				19F072F01A031A53000A4979 /* ZNInstagramSmallTableViewCell.m */,
+				19F072E71A030D11000A4979 /* ZNInstagramTableViewController.h */,
+				19F072E81A030D11000A4979 /* ZNInstagramTableViewController.m */,
+				19F8966B1A02A266001E6D3F /* Images.xcassets */,
+				19F8966D1A02A266001E6D3F /* LaunchScreen.xib */,
+				19F8965E1A02A266001E6D3F /* Supporting Files */,
+			);
+			path = AudibleChallenge;
+			sourceTree = "<group>";
+		};
+		19F8965E1A02A266001E6D3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19F072ED1A031452000A4979 /* zak.png */,
+				19F8965F1A02A266001E6D3F /* Info.plist */,
+				19F896601A02A266001E6D3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19F896771A02A267001E6D3F /* AudibleChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				19F8967A1A02A267001E6D3F /* AudibleChallengeTests.m */,
+				19F896781A02A267001E6D3F /* Supporting Files */,
+			);
+			path = AudibleChallengeTests;
+			sourceTree = "<group>";
+		};
+		19F896781A02A267001E6D3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19F896791A02A267001E6D3F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88464C647A029311EF27EADC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C1FCBBEF3EBFA680BE930B /* Pods-AudibleChallenge.debug.xcconfig */,
+				EB9D890CC542151B3D4657F0 /* Pods-AudibleChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5FE703E6B84A5D1C09E71BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7436611BA2B9E008743FB1E /* libPods-AudibleChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19F8965A1A02A266001E6D3F /* AudibleChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F8967E1A02A267001E6D3F /* Build configuration list for PBXNativeTarget "AudibleChallenge" */;
+			buildPhases = (
+				B00D12B707950CABAE09217A /* Check Pods Manifest.lock */,
+				19F896571A02A266001E6D3F /* Sources */,
+				19F896581A02A266001E6D3F /* Frameworks */,
+				19F896591A02A266001E6D3F /* Resources */,
+				145C12D2EB4C4D99E7E5425E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudibleChallenge;
+			productName = AudibleChallenge;
+			productReference = 19F8965B1A02A266001E6D3F /* AudibleChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19F896731A02A267001E6D3F /* AudibleChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F896811A02A267001E6D3F /* Build configuration list for PBXNativeTarget "AudibleChallengeTests" */;
+			buildPhases = (
+				19F896701A02A267001E6D3F /* Sources */,
+				19F896711A02A267001E6D3F /* Frameworks */,
+				19F896721A02A267001E6D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19F896761A02A267001E6D3F /* PBXTargetDependency */,
+			);
+			name = AudibleChallengeTests;
+			productName = AudibleChallengeTests;
+			productReference = 19F896741A02A267001E6D3F /* AudibleChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19F896531A02A266001E6D3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					19F8965A1A02A266001E6D3F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					19F896731A02A267001E6D3F = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 19F8965A1A02A266001E6D3F;
+					};
+				};
+			};
+			buildConfigurationList = 19F896561A02A266001E6D3F /* Build configuration list for PBXProject "AudibleChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19F896521A02A266001E6D3F;
+			productRefGroup = 19F8965C1A02A266001E6D3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19F8965A1A02A266001E6D3F /* AudibleChallenge */,
+				19F896731A02A267001E6D3F /* AudibleChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19F896591A02A266001E6D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F072EE1A031452000A4979 /* zak.png in Resources */,
+				19F8966A1A02A266001E6D3F /* Main.storyboard in Resources */,
+				19F8966F1A02A266001E6D3F /* LaunchScreen.xib in Resources */,
+				19F8966C1A02A266001E6D3F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F896721A02A267001E6D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		145C12D2EB4C4D99E7E5425E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudibleChallenge/Pods-AudibleChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B00D12B707950CABAE09217A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19F896571A02A266001E6D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F072F11A031A53000A4979 /* ZNInstagramSmallTableViewCell.m in Sources */,
+				19F84D731A05349B00478585 /* ZNImageDetailViewController.m in Sources */,
+				19F072E91A030D11000A4979 /* ZNInstagramTableViewController.m in Sources */,
+				19F072EC1A030DF7000A4979 /* ZNInstagramTableViewCell.m in Sources */,
+				191A33191A0433920086E512 /* Photo.m in Sources */,
+				19F896641A02A266001E6D3F /* AppDelegate.m in Sources */,
+				19F072F41A03DE21000A4979 /* ZNDataStore.m in Sources */,
+				1957D96A1A03FF970081C4FA /* AudibleChallenge.xcdatamodeld in Sources */,
+				19F896611A02A266001E6D3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F896701A02A267001E6D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F8967B1A02A267001E6D3F /* AudibleChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19F896761A02A267001E6D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19F8965A1A02A266001E6D3F /* AudibleChallenge */;
+			targetProxy = 19F896751A02A267001E6D3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19F896681A02A266001E6D3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19F896691A02A266001E6D3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19F8966D1A02A266001E6D3F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19F8966E1A02A266001E6D3F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19F8967C1A02A267001E6D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19F8967D1A02A267001E6D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19F8967F1A02A267001E6D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C1FCBBEF3EBFA680BE930B /* Pods-AudibleChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudibleChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19F896801A02A267001E6D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9D890CC542151B3D4657F0 /* Pods-AudibleChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudibleChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19F896821A02A267001E6D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudibleChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudibleChallenge.app/AudibleChallenge";
+			};
+			name = Debug;
+		};
+		19F896831A02A267001E6D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudibleChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudibleChallenge.app/AudibleChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19F896561A02A266001E6D3F /* Build configuration list for PBXProject "AudibleChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F8967C1A02A267001E6D3F /* Debug */,
+				19F8967D1A02A267001E6D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19F8967E1A02A267001E6D3F /* Build configuration list for PBXNativeTarget "AudibleChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F8967F1A02A267001E6D3F /* Debug */,
+				19F896801A02A267001E6D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19F896811A02A267001E6D3F /* Build configuration list for PBXNativeTarget "AudibleChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F896821A02A267001E6D3F /* Debug */,
+				19F896831A02A267001E6D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1957D9681A03FF970081C4FA /* AudibleChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1957D9691A03FF970081C4FA /* AudibleChallenge.xcdatamodel */,
+			);
+			currentVersion = 1957D9691A03FF970081C4FA /* AudibleChallenge.xcdatamodel */;
+			path = AudibleChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19F896531A02A266001E6D3F /* Project object */;
+}
