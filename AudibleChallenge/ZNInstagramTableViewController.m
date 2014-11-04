@@ -68,7 +68,10 @@
                 [self.dataStore saveContext];
             }
             self.loadingData = NO;
-            [self.tableView reloadData];
+            
+            [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                [self.tableView reloadData];
+            }];
         });
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);

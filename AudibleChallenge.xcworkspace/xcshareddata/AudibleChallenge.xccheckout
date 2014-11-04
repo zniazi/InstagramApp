@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8B3BEC2A-0004-4481-B3C1-0EB48788152B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AudibleChallenge</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3E9D73AF0755E133A86CB4B4EF182A7588A9CF2D</key>
+		<string>github.com:zniazi/InstagramApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AudibleChallenge.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3E9D73AF0755E133A86CB4B4EF182A7588A9CF2D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:zniazi/InstagramApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3E9D73AF0755E133A86CB4B4EF182A7588A9CF2D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3E9D73AF0755E133A86CB4B4EF182A7588A9CF2D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AudibleChallenge</string>
+		</dict>
+	</array>
+</dict>
+</plist>
